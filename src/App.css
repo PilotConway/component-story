@@ -21,25 +21,29 @@
   color: #09d3ac;
 }
 
-.Article { 
-  text-align: left; 
+.Article {
+  text-align: left;
 }
 
-.Article-header { 
-  display: flex; 
-  flex-direction: row; 
-  justify-content: space-between; 
-  align-items: flex-end; 
+.Articles-list {
+  max-width: 1000px;
+  padding: 50px;
+}
+
+.Article-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
   vertical-align: baseline;
 }
 
-.Article-title { 
+.Article-title {
   min-width: 300px;
 }
 
-.Article-byline { 
+.Article-byline {
 }
 
-.Article-content { 
+.Article-content {
 }
-
