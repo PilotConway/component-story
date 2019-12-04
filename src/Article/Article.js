@@ -1,4 +1,13 @@
 import React from "react";
+import PropTypes from "prop-types";
+
+Article.propTypes = {
+  article: PropTypes.shape({
+    title: PropTypes.string,
+    author: PropTypes.string,
+    content: PropTypes.string
+  }).isRequired
+};
 
 export default function Article({ article }) {
   return (
