@@ -1,0 +1,62 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { action } from "@storybook/addon-actions";
+
+import CreateArticle from "./CreateArticle";
+
+<Meta title="Components/CreateArticle" component={CreateArticle} />
+
+# Create Article
+
+<Preview>
+  <Story name="<CreateArticle>">
+    <CreateArticle />
+  </Story>
+</Preview>
+
+Add initial values.
+
+<Preview>
+  <Story name="<CreateArticle> with initial value">
+    <CreateArticle
+      value={{
+        title: "This is a new article",
+        author: "Author",
+        content: "Article Content"
+      }}
+    />
+  </Story>
+</Preview>
+
+# Props
+
+<Props of={CreateArticle} />
+
+Pass in an error to the form.
+
+<Preview>
+  <Story name="<CreateArticle> with error">
+    <CreateArticle
+      error="An error occurred"
+      value={{
+        title: "This is a new article",
+        author: "Author",
+        content: "Article Content"
+      }}
+    />
+  </Story>
+</Preview>
+
+Fields can be passed errors specifically as well using the fieldErrors object.
+Just pass the name of the field as a property and the error string as the value.
+
+<Preview>
+  <Story name="<CreateArticle> with title error">
+    <CreateArticle
+      fieldErrors={{ title: "Must have a title" }}
+      value={{
+        author: "Author",
+        content: "Article Content"
+      }}
+    />
+  </Story>
+</Preview>
