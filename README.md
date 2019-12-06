@@ -1,6 +1,6 @@
 # Demo project for my talk "A Component Story" 
 
-First given at CharmCityJS December 2019. 
+First given at charmCityJS December 2019. 
 
 ## Running Storybook
 
