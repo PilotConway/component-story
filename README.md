@@ -38,7 +38,7 @@ Note: You must have some type of text or markdown between `<Preview>` blocks and
 
 ## Links
 
-* [Storybook Site and Documentation](storybook.js.org)
+* [Storybook Site and Documentation](https://storybook.js.org)
 * [Storybook Design System](https://storybook-design-system.netlify.com)
 * [Addons](https://storybook.js.org/addons/)
 * [Storybook Docs Addon. Writing documentation with MDX](https://github.com/storybookjs/storybook/tree/master/addons/docs)
