@@ -35,3 +35,8 @@ You can render a table of props easily using the `<Props>` component:
 ```
 
 Note: You must have some type of text or markdown between `<Preview>` blocks and `<Prop>` blocks otherwise the mdx parser gets mad. 
+
+## Links
+
+* [Storybook Site and Documentation](storybook.js.org)
+* [Storybook Design System](
